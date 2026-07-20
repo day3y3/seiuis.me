@@ -18,14 +18,14 @@
 </nav>
 
 <!-- PAGE 1 -->
-    <section class="reveal">
+    
 <section id="home">
     <h1>@seiu.</h1>
     <p>Welcome to the humble sacabambaspis's site.</p>
 </section>
-    </section>
+    
 <!-- PAGE 2 -->
-    <section class="reveal">
+    
 <section id="about">
 
     <div class="about-container">
@@ -49,12 +49,12 @@
     </div>
 
 </section>
-    </section>
+    
 
 
     
 
-    <section class="reveal">
+    
 
     <section id="tags">
         
@@ -77,9 +77,9 @@
     
 
     </section>
-    </section>
+    
 <!-- PAGE 3 -->
-<section class="reveal">
+
     
 <section id="contact">
 
@@ -100,7 +100,7 @@
     </p>
 
 </section>
-</section>
+
 
 <!-- PAGE 4 -->
 <footer id="footer">
@@ -110,26 +110,6 @@
 </footer>
 
     
-<script>
-  const reveals = document.querySelectorAll(".reveal");
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("show");
-        }
-      });
-    },
-    {
-      threshold: 0.15
-    }
-  );
-
-  reveals.forEach((section) => {
-    observer.observe(section);
-  });
-</script>
 
     
 </body>
